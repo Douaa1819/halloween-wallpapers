@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site": "REPLACE-WITH-THE-NEW-HALLOWEEN-SITE-ID",
     "public": "public",
     "ignore": ["firebase.json", "**/.*"],
     "headers": [

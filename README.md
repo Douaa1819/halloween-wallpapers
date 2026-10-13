@@ -33,6 +33,9 @@ Add to `"collections"` in the same file. `coverWallpaperId` must be a wallpaper 
 
 ## First-time setup (maintainer)
 
-1. Create the Hosting site: `firebase hosting:sites:create <new-site-id>` (the address becomes `https://<new-site-id>.web.app`).
-2. Put that id in `firebase.json` as `"site"`. It is a placeholder now on purpose: without a `site`, a deploy would overwrite the **default site, which holds another app's catalogue**.
-3. Create the GitHub repo, then run `firebase init hosting:github` to add the deploy key.
+Firebase project: `cute-halloween-92203`. The site goes live at `https://cute-halloween-92203.web.app`
+(manifest: `/v1/manifest.json`, privacy policy: `/privacy.html`, `/app-ads.txt`).
+
+1. Create the GitHub repo, then run `firebase init hosting:github` here. It adds the deploy key to the repo as the
+   secret `FIREBASE_SERVICE_ACCOUNT_CUTE_HALLOWEEN_92203`, which the workflows already use.
+2. Every push or merge to `master` then builds and deploys automatically.

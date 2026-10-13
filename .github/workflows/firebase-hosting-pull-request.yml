@@ -29,6 +29,6 @@ jobs:
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MD_CH_ECF99 }}
-          projectId: md-ch-ecf99
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CUTE_HALLOWEEN_92203 }}
+          projectId: cute-halloween-92203
           expires: 7d

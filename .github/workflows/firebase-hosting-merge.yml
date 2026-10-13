@@ -1,0 +1,35 @@
+# Publishes the catalogue whenever something lands on master (a merged pull request or a direct push).
+name: Deploy to Firebase Hosting
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch: # also allows a manual run from the Actions tab
+
+# Never run two deploys at once; a newer push wins.
+concurrency:
+  group: deploy-live
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      # Validates catalog.json and builds public/v1/ (fails the run, and skips deploy, on any problem).
+      - run: npm run build
+
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MD_CH_ECF99 }}
+          projectId: md-ch-ecf99
+          channelId: live

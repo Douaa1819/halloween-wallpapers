@@ -1,4 +1,157 @@
 {
-  "collections": [],
-  "wallpapers": []
+  "todaysPickId": "pastel-kawaii-ghost-halloween-dreamscape",
+  "collections": [
+    {
+      "id": "cute-halloween",
+      "title": "Cute Halloween",
+      "description": "Friendly ghosts, pumpkins and cozy spooky nights.",
+      "coverWallpaperId": "pastel-kawaii-ghost-halloween-dreamscape"
+    }
+  ],
+  "wallpapers": [
+    {
+      "id": "pastel-kawaii-ghost-halloween-dreamscape",
+      "title": "Pastel Kawaii Ghost Halloween Dreamscape",
+      "collectionId": "cute-halloween",
+      "tone": "bloom",
+      "tags": ["halloween", "kawaii", "ghost", "pumpkin", "pastel", "pink", "witch hat", "simple"],
+      "popularity": 100,
+      "addedAt": "2026-10-13"
+    },
+    {
+      "id": "kawaii-ghosts-beneath-the-harvest-moon",
+      "title": "Kawaii Ghosts Beneath the Harvest Moon",
+      "collectionId": "cute-halloween",
+      "tone": "bloom",
+      "tags": ["halloween", "kawaii", "ghost", "black cat", "harvest moon", "pumpkin", "castle", "pink"],
+      "popularity": 99,
+      "addedAt": "2026-10-13"
+    },
+    {
+      "id": "cozy-ghost-and-cat-halloween-moonlight",
+      "title": "Cozy Ghost and Cat Halloween Moonlight",
+      "collectionId": "cute-halloween",
+      "tone": "bloom",
+      "tags": ["halloween", "kawaii", "ghost", "cat", "book", "moon", "lake", "cozy", "purple"],
+      "popularity": 98,
+      "addedAt": "2026-10-13"
+    },
+    {
+      "id": "kawaii-ghosts-moonlit-halloween-tea-party",
+      "title": "Kawaii Ghosts’ Moonlit Halloween Tea Party",
+      "collectionId": "cute-halloween",
+      "tone": "bloom",
+      "tags": ["halloween", "kawaii", "ghost", "tea party", "cupcakes", "black cat", "moon", "castle"],
+      "popularity": 97,
+      "addedAt": "2026-10-13"
+    },
+    {
+      "id": "kawaii-witch-cottage-cauldron-night",
+      "title": "Kawaii Witch Cottage Cauldron Night",
+      "collectionId": "cute-halloween",
+      "tone": "bloom",
+      "tags": ["halloween", "kawaii", "ghost", "witch", "cauldron", "cottage", "black cat", "pumpkins"],
+      "popularity": 96,
+      "addedAt": "2026-10-13"
+    },
+    {
+      "id": "pastel-halloween-moonlit-cat-cottage",
+      "title": "Pastel Halloween Moonlit Cat Cottage",
+      "collectionId": "cute-halloween",
+      "tone": "bloom",
+      "tags": ["halloween", "pastel", "ghost", "black cat", "pumpkin", "cottage", "moon", "pink"],
+      "popularity": 95,
+      "addedAt": "2026-10-13"
+    },
+    {
+      "id": "ghosts-pumpkin-porch-at-midnight",
+      "title": "Ghost’s Pumpkin Porch at Midnight",
+      "collectionId": "cute-halloween",
+      "tone": "midnight",
+      "tags": ["halloween", "kawaii", "ghost", "pumpkin", "black cat", "moon", "castle", "autumn", "lanterns"],
+      "popularity": 94,
+      "addedAt": "2026-10-13"
+    },
+    {
+      "id": "whimsical-ghost-halloween-bakery",
+      "title": "Whimsical Ghost Halloween Bakery",
+      "collectionId": "cute-halloween",
+      "tone": "ember",
+      "tags": ["halloween", "kawaii", "ghost", "bakery", "cupcakes", "cat", "cozy", "pumpkins"],
+      "popularity": 93,
+      "addedAt": "2026-10-13"
+    },
+    {
+      "id": "cozy-halloween-ghost-bakery",
+      "title": "Cozy Halloween Ghost Bakery",
+      "collectionId": "cute-halloween",
+      "tone": "ember",
+      "tags": ["halloween", "kawaii", "ghost", "bakery", "cupcakes", "black cat", "pumpkins", "cozy"],
+      "popularity": 92,
+      "addedAt": "2026-10-13"
+    },
+    {
+      "id": "pastel-ghosts-moonlit-tea-party",
+      "title": "Pastel Ghosts’ Moonlit Tea Party",
+      "collectionId": "cute-halloween",
+      "tone": "bloom",
+      "tags": ["halloween", "pastel", "ghosts", "tea party", "moon", "cat", "flowers", "pink"],
+      "popularity": 91,
+      "addedAt": "2026-10-13"
+    },
+    {
+      "id": "dreamy-witchs-halloween-night",
+      "title": "Dreamy Witch’s Halloween Night",
+      "collectionId": "cute-halloween",
+      "tone": "bloom",
+      "tags": ["halloween", "witch", "black cat", "book", "pumpkins", "moon", "lantern", "purple"],
+      "popularity": 90,
+      "addedAt": "2026-10-13"
+    },
+    {
+      "id": "little-witchs-midnight-flight",
+      "title": "Little Witch’s Midnight Flight",
+      "collectionId": "cute-halloween",
+      "tone": "midnight",
+      "tags": ["halloween", "witch", "broom", "black cat", "flying", "moon", "castle", "night"],
+      "popularity": 89,
+      "addedAt": "2026-10-13"
+    },
+    {
+      "id": "witch-ghost-and-the-glowing-cauldron",
+      "title": "Witch, Ghost and the Glowing Cauldron",
+      "collectionId": "cute-halloween",
+      "tone": "ember",
+      "tags": ["halloween", "witch", "ghost", "cauldron", "pumpkins", "candles", "black cat", "night"],
+      "popularity": 88,
+      "addedAt": "2026-10-13"
+    },
+    {
+      "id": "moonlit-witch-cottage-halloween-scene",
+      "title": "Moonlit Witch Cottage Halloween Scene",
+      "collectionId": "cute-halloween",
+      "tone": "bloom",
+      "tags": ["halloween", "witch", "cottage", "black cat", "moon", "lake", "purple", "pumpkins"],
+      "popularity": 87,
+      "addedAt": "2026-10-13"
+    },
+    {
+      "id": "moonlit-witch-and-cat-by-the-lake",
+      "title": "Moonlit Witch and Cat by the Lake",
+      "collectionId": "cute-halloween",
+      "tone": "midnight",
+      "tags": ["halloween", "witch", "black cat", "lake", "boat", "moon", "castle", "night"],
+      "popularity": 86,
+      "addedAt": "2026-10-13"
+    },
+    {
+      "id": "ghostly-moonlit-fishing-pond",
+      "title": "Ghostly Moonlit Fishing Pond",
+      "collectionId": "cute-halloween",
+      "tone": "midnight",
+      "tags": ["halloween", "ghost", "fishing", "pond", "waterfall", "lanterns", "moon", "night"],
+      "popularity": 85,
+      "addedAt": "2026-10-13"
+    }
+  ]
 }
